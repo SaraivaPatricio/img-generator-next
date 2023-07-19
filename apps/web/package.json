@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node ./cp-dist.js && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,8 +13,7 @@
     "puppeteer": "^20.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*",
-    "components" : "*"
+    "ui": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
